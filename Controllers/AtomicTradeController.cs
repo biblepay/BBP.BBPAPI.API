@@ -586,7 +586,6 @@ public class AtomicTradeController
     public async Task<string> DogeTest1()
     {
         return "1";
-
     }
 }
 

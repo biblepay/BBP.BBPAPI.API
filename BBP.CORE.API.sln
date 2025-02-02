@@ -5,11 +5,11 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BBP.CORE.API", "BBP.CORE.API.csproj", "{10729B5A-7633-49A9-B94D-36B318B1B064}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_API", "..\Dependencies\Dependencies\OpenAI-API-dotnet-master\OpenAI_API\OpenAI_API.csproj", "{36F21DF7-514F-49F6-9A96-7625C8B27CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_API", "..\..\Dependencies\Dependencies\OpenAI-API-dotnet-master\OpenAI_API\OpenAI_API.csproj", "{36F21DF7-514F-49F6-9A96-7625C8B27CCF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoin", "..\Dependencies\Dependencies\NBitcoin-master\NBitcoin\NBitcoin.csproj", "{9A5D7750-C88F-44B3-93EA-E922AA0F009F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoin", "..\..\Dependencies\Dependencies\NBitcoin-master\NBitcoin\NBitcoin.csproj", "{9A5D7750-C88F-44B3-93EA-E922AA0F009F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMSCommon", "..\Dependencies\Dependencies\BMSCommon\BMSCommon\BMSCommon.csproj", "{49EE00F9-D2B7-419F-A86F-CB260222FF6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMSCommon", "..\..\Dependencies\Dependencies\BMSCommon\BMSCommon\BMSCommon.csproj", "{49EE00F9-D2B7-419F-A86F-CB260222FF6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

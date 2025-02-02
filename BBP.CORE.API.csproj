@@ -44,9 +44,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dependencies\Dependencies\BMSCommon\BMSCommon\BMSCommon.csproj" />
-    <ProjectReference Include="..\Dependencies\Dependencies\NBitcoin-master\NBitcoin\NBitcoin.csproj" />
-    <ProjectReference Include="..\Dependencies\Dependencies\OpenAI-API-dotnet-master\OpenAI_API\OpenAI_API.csproj" />
+    <ProjectReference Include="..\..\Dependencies\Dependencies\BMSCommon\BMSCommon\BMSCommon.csproj" />
+    <ProjectReference Include="..\..\Dependencies\Dependencies\NBitcoin-master\NBitcoin\NBitcoin.csproj" />
+    <ProjectReference Include="..\..\Dependencies\Dependencies\OpenAI-API-dotnet-master\OpenAI_API\OpenAI_API.csproj" />
   </ItemGroup>
 
 </Project>
