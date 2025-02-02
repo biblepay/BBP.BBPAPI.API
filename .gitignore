@@ -1,0 +1,5 @@
+*.user
+/bin2/Debug
+/bin2
+/obj
+*.pubxml

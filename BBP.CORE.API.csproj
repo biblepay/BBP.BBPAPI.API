@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath>bin2\</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="BMSCommon.sln" />
+    <None Include="NBitcoin.csproj" />
+    <None Include="NBitcoin.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="7.6.0" />
+    <PackageReference Include="Nethereum.Accounts" Version="4.19.0" />
+    <PackageReference Include="Nethereum.Contracts" Version="4.19.0" />
+    <PackageReference Include="Nethereum.Hex" Version="4.19.0" />
+    <PackageReference Include="Nethereum.Signer" Version="4.19.0" />
+    <PackageReference Include="Nethereum.Web3" Version="4.19.0" />
+    <PackageReference Include="Novell.Directory.Ldap.NETStandard2_0" Version="3.1.0" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="SharpZipLib" Version="1.4.2" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="stellar-dotnet-sdk" Version="9.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.1" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+    <PackageReference Include="uplink.NET" Version="2.13.3484" />
+    <PackageReference Include="uplink.NET.Linux" Version="2.13.3484" />
+    <PackageReference Include="uplink.NET.Win" Version="2.13.3484" />
+    <PackageReference Include="Voximplant.API" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dependencies\Dependencies\BMSCommon\BMSCommon\BMSCommon.csproj" />
+    <ProjectReference Include="..\Dependencies\Dependencies\NBitcoin-master\NBitcoin\NBitcoin.csproj" />
+    <ProjectReference Include="..\Dependencies\Dependencies\OpenAI-API-dotnet-master\OpenAI_API\OpenAI_API.csproj" />
+  </ItemGroup>
+
+</Project>
